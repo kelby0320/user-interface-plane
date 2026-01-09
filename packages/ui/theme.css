@@ -1,0 +1,21 @@
+@theme {
+    /* --- Shared Color Palette (Intellectual Dark) --- */
+    --color-sidebar: #1C1917;
+    --color-main: #0C0A09;
+    --color-surface: #292524;
+
+    --color-text-primary: #E7E5E4;
+    --color-text-muted: #A8A29E;
+
+    --color-border-subtle: #44403C;
+    --color-accent: #E7E5E4;
+    --color-accent-fg: #0C0A09;
+
+    /* --- Shared Fonts --- */
+    --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-serif: "Georgia", "Times New Roman", serif;
+
+    /* --- Shared Spacing/Radius --- */
+    --radius-panel: 0.75rem;
+    --radius-btn: 0.5rem;
+}
