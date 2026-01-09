@@ -10,7 +10,7 @@ export function ChatHistoryList({ items, onSelect }: { items: ChatHistoryItem[],
                 <div
                     key={item.id}
                     onClick={() => onSelect?.(item.id)}
-                    className="p-2 hover:bg-gray-100 dark:hover:bg-gray-900 rounded-md cursor-pointer mb-1 truncate text-sm text-gray-700 dark:text-gray-300"
+                    className="p-3 hover:bg-gray-100 dark:hover:bg-gray-900 rounded-md cursor-pointer mb-1 truncate text-sm font-medium text-gray-700 dark:text-gray-300"
                 >
                     {item.title}
                 </div>

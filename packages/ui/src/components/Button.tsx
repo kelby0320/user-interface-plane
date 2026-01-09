@@ -22,7 +22,7 @@ export function Button({ className = '', variant = 'primary', ...props }: Button
 
 export function NewChatButton(props: React.ButtonHTMLAttributes<HTMLButtonElement>) {
     return (
-        <Button variant="primary" className="w-full" {...props}>
+        <Button variant="secondary" className="w-full" {...props}>
             New Chat
         </Button>
     );
