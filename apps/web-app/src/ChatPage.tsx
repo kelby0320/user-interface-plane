@@ -41,7 +41,7 @@ export function ChatPage() {
                         </div>
                     )}
                 </div>
-                <div className="p-4 border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950">
+                <div className="p-4 border-t border-border-subtle bg-main">
                     <div className="flex gap-2">
                         <MessageInput />
                         <SendButton />

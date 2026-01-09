@@ -12,10 +12,10 @@ export function ChatMessage({ role, children }: ChatMessageProps) {
         <div className={`flex flex-col ${isUser ? 'items-end' : 'items-start'} space-y-1`}>
             <div
                 className={`
-          p-3 rounded-lg max-w-[80%] 
+          p-3 rounded-panel max-w-[80%] 
           ${isUser
-                        ? 'bg-blue-600 text-white rounded-tr-none'
-                        : 'bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-tl-none'
+                        ? 'bg-surface text-text-primary rounded-tr-none'
+                        : 'bg-transparent text-text-primary pl-0'
                     }
         `}
             >

@@ -1,6 +1,6 @@
 export function ChatLayout({ children }: { children: React.ReactNode }) {
     return (
-        <div className="flex h-screen w-full bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+        <div className="flex h-screen w-full bg-main text-text-primary font-sans">
             {children}
         </div>
     );
@@ -8,7 +8,7 @@ export function ChatLayout({ children }: { children: React.ReactNode }) {
 
 export function Sidebar({ children }: { children: React.ReactNode }) {
     return (
-        <div className="w-64 border-r border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 flex flex-col">
+        <div className="w-64 border-r border-border-subtle bg-sidebar flex flex-col">
             {children}
         </div>
     );
