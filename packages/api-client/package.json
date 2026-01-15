@@ -1,9 +1,23 @@
 {
-    "name": "@acme/api-client",
-    "version": "0.0.0",
-    "private": true,
-    "type": "module",
-    "main": "./src/index.ts",
-    "types": "./src/index.ts"
+  "name": "@acme/api-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "generate": "orval --config ./orval.config.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  },
+  "devDependencies": {
+    "@tanstack/react-query": "^5.90.17",
+    "orval": "^8.0.0",
+    "react": "^19.2.3"
+  },
+  "peerDependencies": {
+    "@tanstack/react-query": "^5.90.17",
+    "react": "^19.2.3"
   }
-  
+}
